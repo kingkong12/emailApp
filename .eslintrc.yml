@@ -1,0 +1,46 @@
+env:
+  browser: true
+  es6: true
+  jest: true
+  serviceworker: true
+extends:
+  - 'airbnb'
+  - 'prettier'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2019
+  sourceType: module
+plugins:
+  - react
+rules:
+  indent: off
+  import/no-extraneous-dependencies: off
+  import/no-named-as-default: off
+  jsx-a11y/anchor-is-valid:
+    - error
+    - components:
+        - Link
+      specialLink:
+        - to
+  react/jsx-filename-extension:
+    - warn
+    - extensions:
+        - .js
+        - .jsx
+  react/no-direct-mutation-state: error
+  react/prop-types: off
+  react/require-default-props: off
+  function-paren-newline: off
+  no-throw-literal: off
+  no-use-before-define:
+    - error
+    - nofunc
+  no-useless-computed-key: off
+settings:
+  import/resolver:
+    node:
+      paths: 'src'
