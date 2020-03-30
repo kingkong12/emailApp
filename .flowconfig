@@ -1,0 +1,17 @@
+[ignore]
+
+
+[include]
+src/
+
+[libs]
+
+
+[lints]
+
+[options]
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='.*\.s?css$' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue
+[strict]
+
