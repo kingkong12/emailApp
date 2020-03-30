@@ -5,19 +5,23 @@ env:
   serviceworker: true
 extends:
   - 'airbnb'
+  - 'plugin:flowtype/recommended'
+  - 'plugin:jsx-a11y/strict'
+  - 'plugin:jest/recommended'
+  - 'plugin:prettier/recommended'
   - 'prettier'
+  - 'prettier/react'
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 parserOptions:
   ecmaFeatures:
     jsx: true
-  ecmaVersion: 2019
+  ecmaVersion: 2020
   sourceType: module
 plugins:
   - react
 rules:
-  indent: off
   import/no-extraneous-dependencies: off
   import/no-named-as-default: off
   jsx-a11y/anchor-is-valid:
