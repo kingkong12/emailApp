@@ -1,0 +1,55 @@
+parts: 
+	#yarn #materilUI  #redux-StoreDesign #Forms:formik #OptimizationTechinique 
+	#
+
+	boiler pate.  
+	login page.
+	post login App. 
+
+
+
+# Boiler Plate 
+
+/*
+boiler palte set up 
+prittier  
+elsl int  
+flow
+cahneg vs code theme. 
+atomic design.  
+designign store. 
+
+materil ui. 
+routes   
+*/
+
+
+
+
+
+
+
+	P1 
+	- webpack configurtion 
+	- jest an linting 
+	- flow ifle 
+	- YMl file  
+	- purpose o f manifest file  
+	- writin
+	
+	P2
+	- HTML question 
+	
+
+
+#Login 
+	- use redux and should you designing redux in app 
+	- 
+	hookis is na opotion 
+	Htlm tags 
+	
+	
+	
+	
+#PostLoginApp.  
+	# 
