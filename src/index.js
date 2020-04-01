@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import './globalCss/index.css'
 import * as serviceWorker from './serviceWorker'
 
+const SpitJsx = () => <div>React</div>
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SpitJsx />
   </React.StrictMode>,
   document.getElementById('root')
 )
